@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".dashboard.DashboardFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilePic"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="16dp"
+        android:src="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="Username"
+        android:id="@+id/name"
+        android:textColor="@color/white"
+        android:textFontWeight="400"
+        android:textSize="24sp"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="Username"
+        android:textColor="#C9C9C9"
+        android:textFontWeight="400"
+        android:textSize="14sp"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="Bio : This is tasdnks"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textFontWeight="400"
+        android:textSize="17sp"
+        tools:ignore="UnusedAttribute" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Public Repos: "
+                android:textColor="@color/white"
+                android:textFontWeight="400"
+                android:textSize="17sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:id="@+id/publicRepoCountTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textFontWeight="400"
+                android:textSize="17sp"
+                tools:ignore="UnusedAttribute" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Public Gists: "
+                android:textColor="@color/white"
+                android:textFontWeight="400"
+                android:textSize="17sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:id="@+id/publicGistsCountTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textFontWeight="400"
+                android:textSize="17sp"
+                tools:ignore="UnusedAttribute" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Private Repos: "
+                android:textColor="@color/white"
+                android:textFontWeight="400"
+                android:textSize="17sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:id="@+id/privateRepoCountTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textFontWeight="400"
+                android:textSize="17sp"
+                tools:ignore="UnusedAttribute" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

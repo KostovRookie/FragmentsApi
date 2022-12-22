@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/commitListFragment">
+
+    <fragment
+        android:id="@+id/profile_Fragment"
+        android:name="com.example.bottom.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/commitListFragment"
+        android:name="com.example.bottom.commitList.ListFragment"
+        android:label="Commits"
+        tools:layout="@layout/fragment_commit_list" />
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.bottom.dashboard.DashboardFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_dashboard" />
+
+</navigation>

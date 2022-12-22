@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/auzColor"
+    tools:context=".commitList.ListFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pravna Pomosht"
+            android:fontFamily="@font/roboto"
+            android:textSize="17sp"
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="master"
+            android:fontFamily="@font/roboto"
+            android:textSize="17sp"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:background="@drawable/ic_launcher_background"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/commitList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        tools:itemCount="10"
+        tools:listitem="@layout/item_commit">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

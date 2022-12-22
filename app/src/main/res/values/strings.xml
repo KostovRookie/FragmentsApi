@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Приложение</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_profile">Профил</string>
+    <string name="commits">Постове</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="dashboard">главно</string>
+</resources>

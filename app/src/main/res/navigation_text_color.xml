@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_chvalues-night
+        valuesecked="true" android:color="@color/nav_bar_active_item" />
+    <item android:state_checked="false" android:color="@color/nav_bar_in_active_item"/>
+</selector>
